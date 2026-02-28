@@ -1,10 +1,13 @@
-📊 SQL Server Sales Analytics Project
+# 📊 SQL Server Sales Analytics Project  
 
 Business-focused analytics project built using Microsoft SQL Server and the AdventureWorksDW data warehouse.
 
 This project demonstrates advanced SQL skills, window functions, time-series analysis, and KPI modeling commonly used in Data Engineering and Analytics roles.
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
 Business_analysis/
   ├── customer_purchase_gaps.sql
   ├── customer_revenue_ranking.sql
@@ -19,79 +22,75 @@ Docs/
 scripts/
   ├── rolling_7_day_revenue.sql
   └── running_totals_and_moving_averages.sql
-📊 Business Analysis Queries
 
-These queries generate decision-level insights from sales data:
+---
 
-Customer Purchase Gaps – Measures time between purchases (retention signal)
+## 📊 Business Analysis Queries
 
-Customer Revenue Ranking – Identifies high-value customers
+These queries generate decision-level insights from sales data.
 
-Top 10% Customers (Pareto Analysis) – Revenue concentration analysis
+### 1. Customer Purchase Gaps  
+Measures time between purchases to analyze customer behavior and retention signals.
 
-Month-over-Month Growth (MoM) – Short-term revenue trends
+### 2. Customer Revenue Ranking  
+Ranks customers by total revenue contribution to identify high-value segments.
 
-Year-over-Year Growth (YoY) – Long-term performance analysis
+### 3. Top 10% Customers (Pareto Analysis)  
+Identifies revenue concentration using percentile-based segmentation.
 
-Top 3 Products per Category – Product performance ranking
+### 4. Month-over-Month Growth (MoM)  
+Tracks short-term revenue trends and performance momentum.
 
-🧪 Analytical Scripts
+### 5. Year-over-Year Growth (YoY)  
+Evaluates long-term revenue performance and strategic growth.
 
-Focused on advanced SQL mechanics:
+### 6. Top 3 Products per Category  
+Ranks top-performing products within each category.
 
-Rolling 7-Day Revenue
+---
 
-Running Totals
+## 🧪 Analytical Scripts
 
-Moving Averages
+Focused on advanced SQL mechanics and reusable analytical patterns.
 
-Demonstrates strong understanding of:
+### Rolling 7-Day Revenue  
+Implements moving window aggregation for short-term trend smoothing.
 
-LAG() / LEAD()
+### Running Totals and Moving Averages  
+Demonstrates cumulative metrics and rolling calculations.
 
-RANK() / DENSE_RANK()
+---
 
-NTILE()
-
-Window aggregations
-
-Time-series calculations
-
-🗂 Dataset
+## 🗂 Dataset
 
 Built using the AdventureWorksDW schema in Microsoft SQL Server.
 
-Key tables:
+### Key Tables Used
 
-FactInternetSales
+- FactInternetSales  
+- DimDate  
+- DimCustomer  
+- DimProduct  
+- DimProductSubcategory  
+- DimProductCategory  
 
-DimDate
-
-DimCustomer
-
-DimProduct
-
-DimProductSubcategory
-
-DimProductCategory
-
-Schema diagram available in:
+Schema reference available in:
 
 Docs/schema_diagram.png
-🛠 Skills Demonstrated
 
-Advanced SQL
+---
 
-Window Functions
+## 🛠 Skills Demonstrated
 
-Time-Series Analysis
+- Advanced SQL  
+- Window Functions  
+- Time-Series Analysis  
+- Customer Segmentation  
+- Revenue KPI Modeling  
+- Structured CTE Design  
 
-Customer Segmentation
+---
 
-Revenue KPI Modeling
+## 🎯 Project Goal
 
-Structured CTE Design
-
-🎯 Project Goal
-
-To simulate how raw transactional data can be transformed into business-ready metrics and insights using production-style SQL patterns.
+To simulate how raw transactional data can be transformed into business-ready metrics and insights using structured, production-style SQL patterns.
