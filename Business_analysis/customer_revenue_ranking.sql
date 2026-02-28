@@ -4,7 +4,7 @@
 with customer_revenue as (
 	select
 		CustomerKey,
-		SalesAmount as total_revenue
+		sum(SalesAmount) as total_revenue
 	from FactInternetSales
 	group by
 		CustomerKey
