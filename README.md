@@ -1,27 +1,6 @@
 # 📊 SQL Server Sales Analytics Project  
 
-Business-focused analytics project built using Microsoft SQL Server and the AdventureWorksDW data warehouse.
-
 This project demonstrates advanced SQL skills, window functions, time-series analysis, and KPI modeling commonly used in Data Engineering and Analytics roles.
-
----
-
-## 📂 Project Structure
-
-Business_analysis/
-  ├── customer_purchase_gaps.sql
-  ├── customer_revenue_ranking.sql
-  ├── month_over_month_growth.sql
-  ├── top_10_percent_customers_part.sql
-  ├── top_3_products_per_category.sql
-  └── yoy_growth_analysis.sql
-
-Docs/
-  └── schema_diagram.png
-
-scripts/
-  ├── rolling_7_day_revenue.sql
-  └── running_totals_and_moving_averages.sql
 
 ---
 
