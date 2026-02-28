@@ -53,9 +53,9 @@ Built using the AdventureWorksDW schema in Microsoft SQL Server.
 - DimProductSubcategory  
 - DimProductCategory  
 
-Schema reference available in:
+## 🗂 Star Schema Diagram
 
-Docs/schema_diagram.png
+![Star Schema Diagram](Docs/schema_diagram.png)
 
 ---
 
