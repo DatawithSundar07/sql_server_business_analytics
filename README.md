@@ -1,6 +1,6 @@
 # 📊 SQL Server Sales Analytics Project  
 
-This project demonstrates advanced SQL skills, window functions, time-series analysis, and KPI modeling commonly used in Data Engineering and Analytics roles.
+### This project demonstrates advanced SQL skills, window functions, time-series analysis, and KPI modeling commonly used in Data Engineering and Analytics roles.
 
 ---
 
